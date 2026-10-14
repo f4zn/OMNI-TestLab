@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e8e4e0"/><stop offset="1" stop-color="#ddd7d0"/></linearGradient>
+    <linearGradient id="oak"><stop stop-color="#937048"/><stop offset=".38" stop-color="#c49d6e"/><stop offset=".7" stop-color="#d4b283"/><stop offset="1" stop-color="#ac8555"/></linearGradient>
+    <linearGradient id="cloth" x2=".6" y2="1"><stop stop-color="#eae2d4"/><stop offset=".55" stop-color="#d7cbb6"/><stop offset="1" stop-color="#bfb096"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="600" height="660" fill="url(#bg)"/>
+  <ellipse cx="318" cy="555" rx="197" ry="25" fill="#5d4d3c" opacity=".18" filter="url(#blur)"/>
+  <path d="M182 365L157 546Q158 554 170 554H181L219 379Z" fill="url(#oak)"/>
+  <path d="M397 355L439 528Q440 536 452 534L461 530L432 349Z" fill="url(#oak)"/>
+  <path d="M218 173Q220 153 242 150L393 173Q412 177 412 201L404 333L197 309Z" fill="url(#oak)"/>
+  <path d="M218 182Q217 164 239 165L388 187Q401 190 399 208L392 325L204 306Z" fill="url(#cloth)"/>
+  <path d="M214 198L209 301M233 177L391 200" fill="none" stroke="#a9997f" opacity=".28" stroke-width="2"/>
+  <path d="M168 372L194 315L398 326L445 395L290 446Z" fill="url(#cloth)"/>
+  <path d="M169 371Q226 393 292 414L444 371L443 407L291 453L171 409Z" fill="#c0b197"/>
+  <path d="M176 378L291 419L440 381" fill="none" stroke="#efe7d8" stroke-width="4" opacity=".8"/>
+  <path d="M167 402L170 422L292 469L446 421L447 403L291 449Z" fill="url(#oak)"/>
+  <path d="M176 416L140 558Q141 566 154 565L165 561L205 426Z" fill="url(#oak)"/>
+  <path d="M410 419L427 564Q429 572 440 569L451 564L439 410Z" fill="url(#oak)"/>
+  <path d="M164 278L149 289L158 407L180 414L177 300Z" fill="url(#oak)"/>
+  <path d="M418 289L434 294L448 411L427 418L415 309Z" fill="url(#oak)"/>
+  <path d="M157 274Q154 267 165 264L218 272L248 325Q251 334 241 337L226 336L190 297L160 290Z" fill="url(#oak)"/>
+  <path d="M406 281Q408 273 418 277L460 313Q467 321 456 325L440 328L401 295Z" fill="url(#oak)"/>
+  <path d="M184 439L154 550M426 441L439 557M227 157L390 181" fill="none" stroke="#87623a" opacity=".25" stroke-width="2"/>
+</svg>

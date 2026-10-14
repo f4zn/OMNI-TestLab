@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660">
+  <defs>
+    <linearGradient id="bg" x2=".8" y2="1"><stop stop-color="#eaded6"/><stop offset="1" stop-color="#ded0c4"/></linearGradient>
+    <linearGradient id="shade" x2="1" y2=".1"><stop stop-color="#d7c5a5"/><stop offset=".4" stop-color="#f7ebd2"/><stop offset=".7" stop-color="#ead8b7"/><stop offset="1" stop-color="#c2ac86"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#fffbdf"/><stop offset="1" stop-color="#c6b18a"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="shape"><path d="M253 216H347L489 428Q300 479 111 428Z"/></clipPath>
+  </defs>
+  <rect width="600" height="660" fill="url(#bg)"/>
+  <ellipse cx="300" cy="560" rx="159" ry="24" fill="#9b8063" opacity=".1" filter="url(#blur)"/>
+  <path d="M300 0V218" stroke="#797366" stroke-width="5"/>
+  <rect x="280" y="198" width="40" height="30" rx="5" fill="#b7a285"/>
+  <path d="M253 216H347L489 428Q300 479 111 428Z" fill="url(#shade)"/>
+  <g clip-path="url(#shape)" stroke="#b6a180" stroke-width="2" opacity=".44">
+    <path d="M261 213L135 448M270 213L164 453M279 213L195 460M289 213L231 465M300 213V470M311 213L369 465M320 213L405 460M330 213L438 453M340 213L468 448"/>
+    <path d="M255 213L117 438M266 213L149 450M275 213L178 455M284 213L211 464M294 213L265 469M305 213L334 469M315 213L387 463M325 213L422 456M335 213L454 450M346 213L485 438" opacity=".45"/>
+  </g>
+  <ellipse cx="300" cy="429" rx="189" ry="42" fill="#bca884"/>
+  <ellipse cx="300" cy="432" rx="181" ry="33" fill="url(#light)"/>
+  <ellipse cx="300" cy="437" rx="20" ry="11" fill="#fffce7"/>
+  <path d="M112 428Q300 468 488 428" fill="none" stroke="#f1e2c6" stroke-width="6"/>
+</svg>
