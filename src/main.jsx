@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+// ...
+<HashRouter>
+  <App />
+</HashRouter>
 import App from './App';
 import { ShopProvider } from './context/ShopContext';
 import './styles.css';
